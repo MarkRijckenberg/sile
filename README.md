@@ -72,23 +72,23 @@ sudo checkinstall
 
 * type 3 and hit <ENTER> to modify version number
 
-# enter 0.9 as version number and hit <ENTER>
+* enter 0.9 as version number and hit <ENTER>
 
 apt-cache show harfbuzz
 
-# output of apt-cache show harfbuzz should be something like this:
+* output of apt-cache show harfbuzz should be something like this:
 
-#Package: harfbuzz
-#Status: install ok installed
-#Priority: extra
-#Section: checkinstall
-#Installed-Size: 936
-#Maintainer: root@root
-#Architecture: amd64
-#Version: 0.9-1
-#Provides: harfbuzz
-#Description: Package created with checkinstall 1.6.2
-#Description-md5: 556b8d22567101c7733f37ce6557412e
+*Package: harfbuzz
+*Status: install ok installed
+*Priority: extra
+*Section: checkinstall
+*Installed-Size: 936
+*Maintainer: root@root
+*Architecture: amd64
+*Version: 0.9-1
+*Provides: harfbuzz
+*Description: Package created with checkinstall 1.6.2
+*Description-md5: 556b8d22567101c7733f37ce6557412e
 
 
 cd
@@ -105,27 +105,27 @@ sudo make
 
 sudo checkinstall
 
-# type 3 and hit <ENTER> to modify version number
+* type 3 and hit <ENTER> to modify version number
 
-# enter 0.91 as version number and hit <ENTER>
+* enter 0.91 as version number and hit <ENTER>
 
 apt-cache show sile
 
-# output of apt-cache show sile should be something like this:
+* output of apt-cache show sile should be something like this:
 
-#Package: sile
-#Status: install ok installed
-#Priority: extra
-#Section: checkinstall
-#Installed-Size: 9220
-#Maintainer: root@root
-#Architecture: amd64
-#Version: 0.91-1
-#Provides: sile
-#Description: Package created with checkinstall 1.6.2
-#Description-md5: 556b8d22567101c7733f37ce6557412e
+*Package: sile
+*Status: install ok installed
+*Priority: extra
+*Section: checkinstall
+*Installed-Size: 9220
+*Maintainer: root@root
+*Architecture: amd64
+*Version: 0.91-1
+*Provides: sile
+*Description: Package created with checkinstall 1.6.2
+*Description-md5: 556b8d22567101c7733f37ce6557412e
 
-# PDF manual:  https://raw.githubusercontent.com/simoncozens/sile/master/documentation/sile.pdf
+* PDF manual:  https://raw.githubusercontent.com/simoncozens/sile/master/documentation/sile.pdf
 
 sile examples/rotate.sil
 
