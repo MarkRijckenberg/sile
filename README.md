@@ -70,7 +70,7 @@ sudo make
 
 sudo checkinstall
 
-# type 3 and hit <ENTER> to modify version number
+* type 3 and hit <ENTER> to modify version number
 
 # enter 0.9 as version number and hit <ENTER>
 
