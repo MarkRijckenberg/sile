@@ -56,8 +56,11 @@ sudo luarocks install luaexpat
 sudo luarocks install lgi
 
 sudo luarocks install inspect
+
 sudo luarocks install luaepnf
+
 sudo luarocks install luarepl
+
 sudo luarocks install cassowary
 
 git clone https://github.com/behdad/harfbuzz
@@ -79,15 +82,25 @@ apt-cache show harfbuzz
 * output of apt-cache show harfbuzz should be something like this:
 
 *Package: harfbuzz
+
 *Status: install ok installed
+
 *Priority: extra
+
 *Section: checkinstall
+
 *Installed-Size: 936
+
 *Maintainer: root@root
+
 *Architecture: amd64
+
 *Version: 0.9-1
+
 *Provides: harfbuzz
+
 *Description: Package created with checkinstall 1.6.2
+
 *Description-md5: 556b8d22567101c7733f37ce6557412e
 
 
@@ -114,15 +127,25 @@ apt-cache show sile
 * output of apt-cache show sile should be something like this:
 
 *Package: sile
+
 *Status: install ok installed
+
 *Priority: extra
+
 *Section: checkinstall
+
 *Installed-Size: 9220
+
 *Maintainer: root@root
+
 *Architecture: amd64
+
 *Version: 0.91-1
+
 *Provides: sile
+
 *Description: Package created with checkinstall 1.6.2
+
 *Description-md5: 556b8d22567101c7733f37ce6557412e
 
 * PDF manual:  https://raw.githubusercontent.com/simoncozens/sile/master/documentation/sile.pdf
